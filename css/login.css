@@ -1,0 +1,141 @@
+body {
+    background: #ebe7df;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container {
+    margin: 0 auto;
+    max-width: 960px;
+    max-height: 960px;
+    z-index: 1;
+    max-width: 960px;
+}
+
+.fbtuser {
+    width: 313px;
+    height: 410px;
+    border: 0px;
+    margin: 0 auto;
+}
+
+.flogin {
+    background: #fff;
+    width: 313px;
+    height: 410px;
+    top: 25%;
+    left: 50%;
+    position: absolute;
+    transform: translateX(-50%);
+}
+
+.rplogin {
+    background: #dddddd;
+    height: 92px;
+    width: 313px;
+    margin: 0px 0px 0px 0px;
+    clear: both;
+}
+
+.fclogin {
+    border-radius: 25px 25px 0px 0px;
+    margin: 0 auto;
+    width: 313px;
+    height: 340px;
+}
+
+.fbtlogin {
+    margin: 28px 0px 0px 40px;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: normal;
+    padding: 12px 90px;
+    text-decoration: none;
+    background-color: #57c5a0;
+    color: #ffffff;
+    display: inline-block;
+}
+
+.fbtlogin:hover {
+    color: fff;
+    background-color: #57c58d;
+}
+
+.fbtlogin:active {
+    position: relative;
+    top: 0px;
+}
+
+.form {
+    position: relative;
+    z-index: 1;
+    max-width: 313px;
+    margin: 30px auto 60px;
+    padding: 0px 40px 0px 40px;
+}
+
+.form input {
+    outline: 0;
+    font-family: "verdana", sans-serif;
+    background: #dddddd;
+    color: #555555;
+    width: 100%;
+    border: 0;
+    padding: 12px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
+.form .message {
+    float: left;
+    margin: 15px 0 0;
+    color: #555555;
+    font-size: 14px;
+}
+
+.form .message a {
+    font-weight: normal;
+    font-family: "Verdana";
+    color: #555555;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+form .message a:hover {
+    color: #ddd;
+    font-size: 12px;
+    text-decoration: underline;
+}
+
+.form .register-form {
+    display: none;
+}
+
+.txtmsg {
+    font-weight: normal;
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: normal;
+    margin: 10px 10px 10px 0px;
+}
+
+.txtmsgs {
+    color: #555;
+    text-decoration: none;
+    font-size: 14px;
+    font-family: Verdana;
+    font-weight: normal;
+    text-align: center;
+    padding: 0px 0px 5px 0px;
+}
+
+
+.loglogin {
+    color:aliceblue;
+    margin: 0 auto;
+    width: 230px;
+    height: 40px;
+    background: url(/img/logologin.png) no-repeat 37px 10px;
+}
